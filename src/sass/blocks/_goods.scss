@@ -1,0 +1,102 @@
+.goods {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 1008px;
+        height: 390px;
+        background: url(../../img/goodsBG.png);
+        img {
+            max-width: 417px;
+            max-height: 356px;
+        }
+        &-header {
+            font-weight: 500;
+            font-size: 36px;
+            color: #0A1A2C;
+        }
+        &-subheader {
+            font-weight: 400;
+            font-size: 20px;
+            text-decoration-line: underline;
+            color: #717171;
+        }
+        &-prices {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+        }
+        &-price {
+            font-weight: 500;
+            font-size: 37px;
+            line-height: 43px;
+            color: #005BB9;
+        }
+        &-oldprice {
+            margin-left: 15px;
+            font-weight: 400;
+            font-size: 22px;
+            text-decoration-line: line-through;
+            color: #7d7e86;
+        }
+    }
+    &__sale {
+        margin-right: 10px;
+        width: 306px;
+        height: 190px;
+        background-color: #F4F5FA;
+        border-radius: 10px;
+        &:nth-child(2) {
+            margin-top: 10px;
+        }
+        &-wrapper {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            img {
+                margin-left: 15px;
+                width: 80px;
+                height: 74px;
+            }
+        }
+        &-header {
+            padding: 20px 0 18px 15px;
+        }
+        &-subheader {
+            margin-left: 15px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #0A1A2C;
+        }
+        &-name {
+            margin-left: 15px;
+            font-weight: 400;
+            font-size: 12px;
+            color: #525252;
+        }
+        &-prices {
+            margin-top: 5px;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 30px;
+        }
+
+        &-price {
+            font-weight: 700;
+            font-size: 20px;
+            color: #FFB800;
+
+        }
+        &-oldprice {
+            margin-left: 5px;
+            font-weight: 400;
+            font-size: 16px;
+            text-decoration-line: line-through;
+            color: #C2C5DA;
+        }
+    }
+}

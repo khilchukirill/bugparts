@@ -1,0 +1,28 @@
+@media (max-width: 1360px) {
+    div.goods {
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        &__main {
+            width: 600px;
+            height: 300px;
+            img {
+                max-width: 317px;
+                max-height: 256px;
+            }
+        }
+        &__sale {
+            margin-left: 10px;
+            width: 256px;
+            height: 140px;
+            &:nth-child(2) {
+                margin-top: 10px;
+            }
+            &-header {
+                padding: 10px 0 0 15px;
+            }
+        } 
+    }
+
+}

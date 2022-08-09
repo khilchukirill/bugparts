@@ -1,0 +1,30 @@
+.catalogMini {
+    margin-top: 70px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        width: 431px;
+        height: 184px;
+        border: 1px solid #E1E5F8;
+        border-radius: 6px;
+        }
+
+    &__header {
+        margin-top: 30px;
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: 24px;
+        color: #0A1A2C;
+    }
+    &__subheader {
+        margin-top: 10px;
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #0A1A2C;
+    }
+}

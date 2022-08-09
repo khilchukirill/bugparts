@@ -1,0 +1,25 @@
+@import 'base/variables';
+@import 'base/buttons';
+@import 'base/media';
+
+
+* {
+	font-family: 'Righteous';
+	font-family: 'Roboto', sans-serif;
+	font-display: swap;
+}
+.container {
+	max-width: 1355px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/search';
+@import 'blocks/goods';
+@import 'blocks/catalogMini';
+@import 'blocks/catalog';	
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/footer';

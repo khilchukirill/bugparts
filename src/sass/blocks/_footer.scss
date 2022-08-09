@@ -1,0 +1,50 @@
+.footer {
+    background-color: #0C1A2A;
+    padding: 0 20px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__catalog, &__rubrikator, &__information, &__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-right: 90px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #868DAC;
+        margin-top: 36px;
+        margin-bottom: 100px;
+        a {
+            font-weight: 500;
+            font-size: 14px;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-top: 10px;
+
+        }
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__feed {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__address {
+        margin-top: 36px;
+        span {
+            font-weight: 500;
+            font-size: 18px;
+            color: #868DAC;
+        }
+        a {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 29px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+}

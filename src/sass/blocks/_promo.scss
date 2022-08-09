@@ -1,0 +1,60 @@
+.promo {
+    margin-top: 20px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-family: 'Righteous';
+        color: $main-color;
+        font-weight: 700;
+        font-size: 26px;
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__schedule {
+        &-img {
+            margin-right: 10px;
+        }
+        font-weight: 500;
+        font-size: 14px;
+        text-align: right;
+        color: $main-color;
+    }
+    &__whatsapp {
+        padding: 8px 16px;
+        min-width: 204px;
+        min-height: 30px;
+        background: #E1EFD0;
+        border-radius: 2px;
+        font-weight: 500;
+        text-align: right;
+        color: #000000;
+        text-decoration: none;
+        &:hover {
+            color: #000000;
+        }
+    }
+    &__tel {
+        font-weight: 500;
+        font-size: 20px;
+        color: $main-color;
+        text-decoration: none;
+        &:hover {
+            color:$main-color;
+        }
+        &-social {
+            display: flex;
+            justify-content: flex-end;
+        }
+        img {
+            margin-left: 8px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+}

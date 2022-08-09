@@ -1,0 +1,19 @@
+.header {
+    background-color: #0F2438;
+    height: 36px;
+    &__list {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__delivery, &__payment, &__garant, &__news, &__about, &__contacts {
+        margin-top: 8px;
+        margin-right: 30px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-decoration: none;
+        &:hover {
+            color: #FFFFFF;
+        }
+    }
+}
